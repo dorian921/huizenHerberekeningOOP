@@ -19,6 +19,7 @@ $house1->addRooms($room3);
 
 
 echo $house1->getRoomInfo();
+
 echo "<br>";
 
 echo "total volume:" . number_format($house1->calculateVolume()) . " m3";
